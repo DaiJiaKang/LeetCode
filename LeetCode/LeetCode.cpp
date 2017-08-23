@@ -4,8 +4,6 @@
 #include "stdafx.h"
 #include "TwoSum.h"
 
-using namespace std;
-
 int main()
 {
 	Solution s;
