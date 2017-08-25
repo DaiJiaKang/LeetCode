@@ -4,7 +4,9 @@
 #include "stdafx.h"
 //#include "TwoSum.h"
 //#include "AddTwoNumbers.h"
-#include "ReverseInteger.h"
+//#include "ReverseInteger.h"
+#include "PalindromeNumber.h"
+
 
 //int mainTwoSum()
 //{
@@ -25,7 +27,7 @@
 //    return 0;
 //}
 
-//int main()
+//int mainAddTwoNumbers()
 //{
 //	Solution s;
 //	ListNode l1(9), l2(9);//, l3(3);
@@ -51,13 +53,20 @@
 //	return 0;
 //}
 
-int mainReverseInteger()
+//int mainReverseInteger()
+//{
+//	Solution s;
+//	int ans;
+//	int num = -2147483648;
+//	ans = s.reverse(num);
+//	cout << ans << endl;
+//
+//	return 0;
+//}
+
+int mainPalindromeNumber()
 {
 	Solution s;
-	int ans;
-	int num = -2147483648;
-	ans = s.reverse(num);
-	cout << ans << endl;
-
+	cout << s.isPalindrome(2147447412) << endl;
 	return 0;
 }
