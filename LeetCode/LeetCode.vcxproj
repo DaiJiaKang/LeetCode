@@ -149,6 +149,7 @@
     <ClInclude Include="AddTwoNumbers.h" />
     <ClInclude Include="c++lib.h" />
     <ClInclude Include="ContainerWithMostWater.h" />
+    <ClInclude Include="IntegertoRoman.h" />
     <ClInclude Include="PalindromeNumber.h" />
     <ClInclude Include="ReverseInteger.h" />
     <ClInclude Include="stdafx.h" />
