@@ -5,7 +5,8 @@
 //#include "TwoSum.h"
 //#include "AddTwoNumbers.h"
 //#include "ReverseInteger.h"
-#include "PalindromeNumber.h"
+//#include "PalindromeNumber.h"
+#include "ContainerWithMostWater.h"
 
 
 //int mainTwoSum()
@@ -64,9 +65,18 @@
 //	return 0;
 //}
 
-int mainPalindromeNumber()
+//int mainPalindromeNumber()
+//{
+//	Solution s;
+//	cout << s.isPalindrome(2147447412) << endl;
+//	return 0;
+//}
+
+int main()
 {
 	Solution s;
-	cout << s.isPalindrome(2147447412) << endl;
+	vector<int> vec = { 3, 2, 1, 3 };
+	cout << s.maxArea(vec) << endl;
+
 	return 0;
 }
