@@ -7,7 +7,9 @@
 //#include "ReverseInteger.h"
 //#include "PalindromeNumber.h"
 //#include "ContainerWithMostWater.h"
-#include "IntegertoRoman.h"
+//#include "IntegertoRoman.h"
+//#include "RomantoInteger.h"
+#include "LongestCommonPrefix.h"
 
 
 //int mainTwoSum()
@@ -82,10 +84,29 @@
 //	return 0;
 //}
 
+//int mainintToRoman()
+//{
+//	Solution s;
+//	cout << s.intToRoman(44) << endl;
+//
+//	return 0;
+//}
+
+//int mainRomantoInteger()
+//{
+//	Solution s;
+//	string str = "MCMXCVI";
+//	cout << s.romanToInt(str) << endl;
+//
+//	return 0;
+//}
+
 int main()
 {
 	Solution s;
-	cout << s.intToRoman(44) << endl;
+	vector<string> vecs = {"a", "b"};
+	cout << s.longestCommonPrefix(vecs) << endl;
 
 	return 0;
+
 }
