@@ -9,7 +9,8 @@
 //#include "ContainerWithMostWater.h"
 //#include "IntegertoRoman.h"
 //#include "RomantoInteger.h"
-#include "LongestCommonPrefix.h"
+//#include "LongestCommonPrefix.h"
+#include "3Sum.h"
 
 
 //int mainTwoSum()
@@ -101,12 +102,24 @@
 //	return 0;
 //}
 
+//int mainLongestCommonPrefix()
+//{
+//	Solution s;
+//	vector<string> vecs = {"a", "b"};
+//	cout << s.longestCommonPrefix(vecs) << endl;
+//
+//	return 0;
+//
+//}
+
 int main()
 {
 	Solution s;
-	vector<string> vecs = {"a", "b"};
-	cout << s.longestCommonPrefix(vecs) << endl;
+	vector<vector<int> > ans;
+	vector<int> nums = { 0,0,0,0 };
 
+	ans = s.threeSum(nums);
+
+	system("pause");
 	return 0;
-
 }

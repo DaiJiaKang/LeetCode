@@ -146,6 +146,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="3Sum.h" />
     <ClInclude Include="AddTwoNumbers.h" />
     <ClInclude Include="c++lib.h" />
     <ClInclude Include="ContainerWithMostWater.h" />
